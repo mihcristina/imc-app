@@ -62,7 +62,7 @@
                                     <action selector="calculate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dWB-mH-Aae"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SIV-4k-l9P">
+                            <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SIV-4k-l9P">
                                 <rect key="frame" x="0.0" y="443" width="414" height="419"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
@@ -102,6 +102,7 @@
                         <outlet property="lbResult" destination="8mf-qD-HAM" id="Qs4-o6-gnU"/>
                         <outlet property="tfHeight" destination="s9T-Vq-jEr" id="Axb-c9-XE7"/>
                         <outlet property="tfWeight" destination="xvQ-TL-awP" id="fgw-DY-it9"/>
+                        <outlet property="viResult" destination="SIV-4k-l9P" id="Jzl-YT-4Pl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

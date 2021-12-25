@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var tfHeight: UITextField!
     @IBOutlet weak var lbResult: UILabel!
     @IBOutlet weak var ivResults: UIImageView!
+    @IBOutlet weak var viResult: UIView!
     
     var imc: Double = 0
     
@@ -50,6 +51,7 @@ class ViewController: UIViewController {
         }
         lbResult.text = result
         ivResults.image = UIImage(named: image)
+        viResult.isHidden = false
     }
     
 }
